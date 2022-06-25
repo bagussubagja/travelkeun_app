@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutMe">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:src="@drawable/profile_pic"
+        app:civ_border_color="#FF267055"
+        app:civ_border_width="2dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_weight="0.1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/nameField"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Name : "
+                app:fontFamily="@font/p_reg" />
+
+            <TextView
+
+                android:id="@+id/userName"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Bagus Subagja"
+                app:fontFamily="@font/p_med" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="0.5"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/emailField"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Email : "
+                app:fontFamily="@font/p_reg" />
+
+            <TextView
+                android:id="@+id/userEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="bagussubagja17@gmail.com"
+                app:fontFamily="@font/p_med" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

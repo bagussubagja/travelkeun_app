@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_name_here">Enter your name here...</string>
+    <string name="get_started">Get Started!</string>
+    <string name="hello_there">Hello there,</string>
+    <string name="name_here">Your Name Is Here</string>
+    <string name="more">More For You</string>
+    <string name="more_for_you">More For You</string>
+</resources>
